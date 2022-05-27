@@ -16,6 +16,7 @@ const Login = () => {
         value={input}
         onChange={(e) => Handlechange(e.target.value)}
       />
+
       <Register input={input} change={Handlechange} />
     </div>
   );
