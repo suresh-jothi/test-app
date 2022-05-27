@@ -4,17 +4,6 @@ import Register from "./Register";
 const Login = () => {
   const [input, setInput] = useState("");
 
-  useEffect(() => {
-    // conponentDidMount
-    console.log("conponentDidMount", input);
-    setInput("data");
-  }, []);
-
-  useEffect(() => {
-    // conponentDidupdate
-    console.log("conponentDidupdate", input);
-  });
-
   const Handlechange = (value) => {
     setInput(value);
   };
