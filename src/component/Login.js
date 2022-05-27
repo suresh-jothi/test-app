@@ -27,6 +27,20 @@ const Login = () => {
         value={input}
         onChange={(e) => Handlechange(e.target.value)}
       />
+      <input
+        type="text"
+        name="fname"
+        placeholder="fname"
+        value={input}
+        onChange={(e) => Handlechange(e.target.value)}
+      />
+      <input
+        type="text"
+        name="fname"
+        placeholder="fname"
+        value={input}
+        onChange={(e) => Handlechange(e.target.value)}
+      />
       <Register input={input} change={Handlechange} />
     </div>
   );
