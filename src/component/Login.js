@@ -15,17 +15,6 @@ const Login = () => {
     console.log("conponentDidupdate", input);
   });
 
-  useEffect(() => {
-    // componentDidUpdate based on dependency value change
-    console.log("componentDidUpdate based on dependency value change", input);
-  }, [input]);
-
-  useEffect(() => {
-    // componentWillUnmount
-    console.log("componentWillUnmount");
-    return setInput("");
-  }, []);
-
   const Handlechange = (value) => {
     setInput(value);
   };
